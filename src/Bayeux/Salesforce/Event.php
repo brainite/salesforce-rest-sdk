@@ -20,7 +20,7 @@ class Event
 {
     /**
      * @var \DateTimeImmutable
-     * @JMS\Type("DateTimeImmutable<'Y-m-d\TH:i:s.u\Z', 'GMT'>")
+     * @JMS\Type("DateTimeImmutable<'Y-m-d\TH:i:s.u\Z', 'GMT', ['Y-m-d\TH:i:s.u\Z', 'Y-m-d\TH:i\Z', 'Y-m-d\TH:i:s\Z']>")
      */
     private $createdDate;
 
